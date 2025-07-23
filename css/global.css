@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+}
+
+.login-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 300px;
+  text-align: center;
+  margin: 15px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mensagens */
+.mensagem, #mensagem-moeda {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #333;
+  text-align: center;
+  min-height: 24px;
+}
+
+/* Mensagens de erro e sucesso */
+.erro {
+  color: red;
+}
+
+.sucesso {
+  color: green;
+}
+
+#logradouro, #bairro, #cidade, #estado, #regiao {
+  text-align: left;
+  margin: 6px 0;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #000;
+  min-height: 20px;
+}
